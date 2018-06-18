@@ -1,0 +1,99 @@
+﻿h1.logo{
+  font-size:80px;
+  font-family:'Poiret One',sans;
+  text-align:center;
+  margin-top:100px;
+  color:#666;
+  text-shadow:0px 1px 2px rgba(0,0,0,0.3);
+}
+h1.logo span:nth-of-type(1){
+  color:#539fb5;
+}
+h1.logo span:nth-of-type(2){
+  color:#d7545a;
+}
+h1.logo span:nth-of-type(3){
+  color:#edbd5b;
+}
+h1.logo span:nth-of-type(4){
+  color:#539fb5;
+}
+h1.logo span:nth-of-type(5){
+  color:#b9d088;
+}
+h1.logo span:nth-of-type(6){
+  color:#d7545a;
+}
+
+ #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        width: 400px;
+    height: 40px;
+    margin-top: -100px
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-transition: width  0.2s ease-in-out;
+    -moz-transition:width  0.2s ease-in-out;
+    -o-transition: width  0.2s ease-in-out;
+    transition: width  0.2s ease-in-out;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }   
+    .search-query:focus{
+        width: 260px;
+    }   
+
+.container{
+    width:400px;
+  margin:0px auto;
+  margin-top:40px;
+}
+
+.row{
+    margin-right: auto;
+    margin-left: -50px;
+    width: 550px;
+    margin-top: -80px;
+    height:400px;
+}
+
+
+
+input, select, textarea {
+    font-family: inherit;
+    width: 200px;
+    height: 40px;
+    margin-left: 150px;
+    font-size: inherit;
+    line-height: inherit;
+}
