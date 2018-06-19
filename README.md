@@ -1,6 +1,8 @@
 # Sportify - Sportswear e-commerce
 
 - This was a group assignment from APU, based on ASP.NET C#.
+- Further explanations and screenshots can be seen in the documentation: wapp-finaldoc.docx
+---
 
 - The project revolves around building a web application which displays the main product that Sportify is famous about; footwear, whereby customers may browse through and select an item, make the required specifications such as quantity and then it would be saved in a shopping cart which may contain multiple types of items to be checked out once signed in.
 - Customers can filter the items based category or type of footwear, such as sneakers and running shoes, and it will also provide information to customers about the company background, store locations, and contact information for customer service support.
